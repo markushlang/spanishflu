@@ -1,0 +1,14 @@
+Package: spanishflu
+Title: Spanish flu datasets (U.S.)
+Version: 0.1.0
+Authors@R: 
+    person(given = "Markus",
+           family = "Lang",
+           role = c("aut", "cre"),
+           email = "markuslang@posteo.de")
+Description: A data package containing ten data sets covering the Spanish flu in the United States.
+License: MIT + file LICENSE
+Depends: R (>= 3.5)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
