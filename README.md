@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.org/markushlang/covid19vaccines.svg?branch=master)](https://travis-ci.org/markushlang/covid19vaccines)
 <!-- badges: end -->
 
 The `spanishflu` package contains ten datasets covering the Spanish flu
