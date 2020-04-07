@@ -1,0 +1,25 @@
+destination: docs
+authors:
+  Markus Lang:
+template:
+  params:
+    bootswatch: cosmo
+reference:
+  - title: "Datasets"
+    desc: >
+      Included datasets.
+    contents:
+      - army_in_the_us_deaths
+      - deaths_by_sex_age
+      - deaths_estimated_vs_excess_cities
+      - deaths_estimated_vs_excess_nyc_boroughs
+      - deaths_estimated_vs_excess_states
+      - deaths_registered_in_certain_cities
+      - deaths_registered_in_certain_cities_1000
+      - deaths_registered_in_certain_states_1000
+      - deaths_registered_in_nyc_boroughs_1000
+      - naval_forces_in_the_us_deaths
+navbar:
+  right:
+   - icon: fa-github
+     href: https://github.com/markushlang/spanishflu

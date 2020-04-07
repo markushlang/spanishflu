@@ -18,10 +18,10 @@ in the United States:
     weekly death numbers from larger U.S. cities between September 8th
     1918 and March 15th 1919.
   - The fourth, fifth and sixth datasets,
-    `deaths_registered_in_certain_states_1000`,`deaths_registered_in_certain_cities_1000`,`deaths_registered_in_nyc_boroughs_1000`,
-    contain mortality figures per 1,000 population for U.S. states,
-    cities of 100,000 population or more, and New York City’s five
-    boroughs.
+    `deaths_registered_in_certain_states_1000`,`deaths_registered_in_certain_cities_1000`,
+    `deaths_registered_in_nyc_boroughs_1000`, contain mortality figures
+    per 1,000 population for U.S. states, cities of 100,000 population
+    or more, and New York City’s five boroughs.
   - The seventh dataset, `deaths_by_sex_age`, breaks down deaths from
     influenza and pneumonia per 1,000 population for all U.S. states,
     except Hawaii, by sex and age.  
