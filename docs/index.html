@@ -70,7 +70,7 @@
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#spanishflu" class="anchor"></a>spanishflu</h1></div>
 <!-- badges: start -->
-<!-- badges: end -->
+
 <p>The <code>spanishflu</code> package contains ten datasets covering the Spanish flu in the United States:</p>
 <ul>
 <li>The first two datasets,<code>naval_forces_in_the_us_deaths</code> and <code>army_in_the_us_deaths</code>, can be used to visualize deaths from influenza and pneumonia in the military forces, where the Spanish flu first spread.</li>
@@ -143,7 +143,6 @@
   <span class="fu">guides</span>(<span class="kw">color</span> <span class="kw">=</span> <span class="fl">FALSE</span>) +
   <span class="fu">scale_color_manual</span>(<span class="kw">values</span> <span class="kw">=</span> <span class="kw pkg">prismatic</span><span class="kw ns">::</span><span class="fu"><a href="https://rdrr.io/pkg/prismatic/man/clr_darken.html">clr_darken</a></span>(<span class="fu">paletteer_d</span>(<span class="st">"jcolors::default"</span>), <span class="fl">0.2</span>)) +
   <span class="fu">scale_y_continuous</span>(<span class="kw">labels</span> <span class="kw">=</span> <span class="kw pkg">scales</span><span class="kw ns">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/label_number.html">comma_format</a></span>(<span class="kw">accuracy</span> <span class="kw">=</span> <span class="fl">1</span>),
-                     <span class="kw">breaks</span> <span class="kw">=</span> <span class="kw pkg">scales</span><span class="kw ns">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/trans_breaks.html">trans_breaks</a></span>(<span class="st">"log2"</span>, <span class="kw">function</span>(<span class="no">x</span>) <span class="fl">2</span>^<span class="no">x</span>),
                      <span class="kw">trans</span> <span class="kw">=</span> <span class="st">"log2"</span>) +
   <span class="fu">labs</span>(<span class="kw">x</span> <span class="kw">=</span> <span class="st">"Days Since 10th Confirmed Death"</span>,
        <span class="kw">y</span> <span class="kw">=</span> <span class="st">"Cumulative Number of Deaths (log scale)"</span>,
@@ -176,7 +175,13 @@
 </ul>
 </div>
 
-  </div>
+  <div class="dev-status">
+<h2>Dev status</h2>
+<ul class="list-unstyled">
+<li><a href="https://travis-ci.org/markushlang/covid19vaccines"><img src="https://travis-ci.org/markushlang/covid19vaccines.svg?branch=master" alt="Travis build status"></a></li>
+</ul>
+</div>
+</div>
 </div>
 
 
