@@ -110,6 +110,7 @@ flu_curve %>%
                   nudge_y = 0.1, 
                   segment.color = NA) + 
   guides(color = FALSE) + 
+  theme_minimal() +
   scale_color_manual(values = prismatic::clr_darken(paletteer_d("jcolors::default"), 0.2)) +
   scale_y_continuous(labels = scales::comma_format(accuracy = 1), 
                      trans = "log2") +  
